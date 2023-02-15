@@ -1,0 +1,2 @@
+read E
+echo  $E |bc -l| xargs printf "%.3f"
